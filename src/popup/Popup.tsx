@@ -1,5 +1,5 @@
 const Popup = () => {
-  return <div className="w-max p-2 text-2xl">Popup Page</div>
+  return <div className="w-max p-2 text-2xl">Popup Page s</div>
 }
 
 // make root component exported to meet `isReactRefreshBoundary`
