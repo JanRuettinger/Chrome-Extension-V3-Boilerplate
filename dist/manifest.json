@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Chrome Extension TypeScript Starter",
-  "description": "Chrome Extension, TypeScript, Visual Studio Code",
+  "name": "Chrome Extension V3 Boilerplate",
+  "description": "Chrome Extension V3 Boilerplate Description",
   "version": "0.1",
   "background": {
     "service_worker": "sw.js"
@@ -19,17 +19,17 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "/images/get_started16.png",
-      "32": "/images/get_started32.png",
-      "48": "/images/get_started48.png",
-      "128": "/images/get_started128.png"
+      "16": "/images/icons/icon16.png",
+      "32": "/images/icons/icon32.png",
+      "48": "/images/icons/icon48.png",
+      "128": "/images/icons/icon128.png"
     }
   },
   "icons": {
-    "16": "/images/get_started16.png",
-    "32": "/images/get_started32.png",
-    "48": "/images/get_started48.png",
-    "128": "/images/get_started128.png"
+    "16": "/images/icons/icon16.png",
+    "32": "/images/icons/icon32.png",
+    "48": "/images/icons/icon48.png",
+    "128": "/images/icons/icon128.png"
   },
   "permissions": ["storage", "tabs"]
 }
